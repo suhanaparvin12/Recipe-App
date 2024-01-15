@@ -47,6 +47,13 @@ button {
     border: none;
     margin-top: 10px;
     margin-bottom: 10px;
+    transition: all ease-in-out 0.2s;
+}
+
+button:hover{
+    cursor:pointer;
+    transform: translateY(2px);
+    box-shadow: 5px 5px 0 rgba(165, 42, 42, 0.503);
 }
 
 input {
